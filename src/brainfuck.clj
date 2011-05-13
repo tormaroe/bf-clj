@@ -26,3 +26,12 @@
       "Main, default brainf*ck interpreter."
       [source]
       (bfcore/eval (parse source) slurp spit))
+
+(defn repl []
+      (print "BRAINF*CK=> ")
+      (flush)
+      (bfcore/eval (parse (read-line)) slurp spit)
+      (recur))
+
+
+
