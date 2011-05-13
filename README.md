@@ -4,7 +4,17 @@ An implementation of the [Brainfuck programming language](http://en.wikipedia.or
 
 ## Usage
 
-TODO...
+The simplest way to start using bf-clj is to include bf-clj as a dependency in your [leiningen](https://github.com/technomancy/leiningen) project file. bf-clj is [registered on clojars](http://clojars.org/bf-clj), so find the correct version number there.
+
+Then you can use it like this:
+
+    (require '[brainfuck :as bf])
+    
+    (bf/eval "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.
+              >+.+++++++..+++.>++.<<+++++++++++++++.>.+++.
+              ------.--------.>+.>.")
+
+    ; outputs *Hello World!* and a line break
 
 ## License
 
