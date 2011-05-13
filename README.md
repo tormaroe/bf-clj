@@ -14,7 +14,7 @@ Then you can use it like this:
               >+.+++++++..+++.>++.<<+++++++++++++++.>.+++.
               ------.--------.>+.>.")
 
-    ; outputs *Hello World!* and a line break
+    ; outputs Hello World! and a line break
 
 ## License
 
