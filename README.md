@@ -16,6 +16,8 @@ Then you can use it like this:
 
     ; outputs Hello World! and a line break
 
+Refer to the source and tests for more advanced usage, like how to create your own dialect of brainfuck using braifuck.core.
+
 ## License
 
 Copyright (C) 2011 tormaroe
